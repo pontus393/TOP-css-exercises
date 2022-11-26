@@ -24,3 +24,11 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.columns {
+  display: flex;
+  justify-content: center;
+}
+.columns * {
+  border: 1px solid black;
+}
