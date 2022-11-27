@@ -25,3 +25,31 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* My solution */
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+}
+
+.header ul,
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
