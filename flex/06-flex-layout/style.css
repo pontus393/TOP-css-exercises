@@ -53,3 +53,22 @@ a:hover,
 a:active {
   text-decoration: underline;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.container * {
+  border: 1px solid black;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.content {
+  align-self: center;
+  justify-self: center;
+}
